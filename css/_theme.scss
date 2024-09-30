@@ -1,0 +1,64 @@
+
+
+
+@font-face {
+    font-family: roboto-Bold;
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+body{
+    font-family: 'roboto-regular', 'sans-serif' !important;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+figcaption {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: 0 0 0 0;
+  box-shadow: 0 0 0 0;
+}
+input,button{
+  border: 0;
+  background-color: transparent;
+}
+
+input:focus-visible {
+  outline-offset: 0px;
+  outline: -webkit-focus-ring-color auto 0;
+}
+
+.btn:focus {
+
+  -webkit-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
+  box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0);
+}

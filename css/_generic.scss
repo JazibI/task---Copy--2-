@@ -1,0 +1,116 @@
+
+//styling of custom container
+
+.sm{
+  max-width: 1040px;
+}
+
+
+// frosten bg
+
+.frosten_bg {
+  background-color: rgba($color: $white, $alpha: 0.5);
+  backdrop-filter: blur(15px);
+}
+// generic styling about flex-box
+
+.d_flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.d_flex-start {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.just_space-between {
+  justify-content: space-between;
+}
+.flex_col-invr {
+  flex-direction: row-reverse;
+}
+
+// generic styling about positions
+
+.ps_r {
+  position: relative;
+}
+
+figure {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+}
+
+// generic styling about spacing
+.sec_space {
+  // margin: 5rem auto;
+  // overflow: hidden;
+  padding: 2.5rem 15px;
+}
+
+.gap_1 {
+  gap: 1rem;
+}
+
+// generic styling about font-size
+
+.h2 {
+  font-size: calc(1.5rem + 0.5vw);
+}
+
+// generic styling about btns
+
+.btn {
+  padding: 0.5rem 2.5rem;
+  border-radius: 2rem;
+  font-size: calc(0.7rem + 0.3vw);
+  text-transform: capitalize;
+  font-weight: 600;
+  i {
+    margin-right: 0.5rem;
+  }
+}
+
+.btn_yellow {
+  background-color: $themeYellow;
+}
+.btn_red {
+  background-color: $themeRed;
+  color: $white;
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+  font-size: calc(0.5rem + 0.3vw);
+  font-weight: normal;
+
+  &:hover {
+    border-color: $black;
+    background-color: $white;
+    color: $black;
+  }
+}
+
+
+// stuuling of gap
+
+.mb_1{
+  margin-bottom: 1rem;
+}
+.mb_2{
+  margin-bottom: 2rem;
+}
+.mb_3{
+  margin-bottom: 3rem;
+}
